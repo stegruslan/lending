@@ -1,0 +1,223 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Торговое оборудование | Витрины и меловые изделия</title>
+
+  <style>
+    body {
+      margin: 0;
+      font-family: Arial, sans-serif;
+      background: #f6f6f6;
+      color: #222;
+    }
+
+    header {
+      background: #111;
+      color: white;
+      padding: 70px 20px;
+      text-align: center;
+    }
+
+    header h1 {
+      margin: 0;
+      font-size: 36px;
+    }
+
+    header p {
+      margin-top: 12px;
+      opacity: 0.8;
+      font-size: 16px;
+    }
+
+    .container {
+      max-width: 1100px;
+      margin: auto;
+      padding: 40px 20px;
+    }
+
+    h2 {
+      margin-top: 60px;
+      font-size: 26px;
+      border-left: 4px solid #111;
+      padding-left: 10px;
+    }
+
+    .grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
+      gap: 20px;
+      margin-top: 20px;
+    }
+
+    .card {
+      background: white;
+      border-radius: 12px;
+      overflow: hidden;
+      box-shadow: 0 4px 15px rgba(0,0,0,0.08);
+      transition: 0.2s;
+    }
+
+    .card:hover {
+      transform: translateY(-4px);
+    }
+
+    .img-placeholder {
+      height: 170px;
+      background: linear-gradient(135deg, #ddd, #eee);
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      color: #777;
+      font-size: 14px;
+    }
+
+    .card-content {
+      padding: 15px;
+    }
+
+    .card-content h3 {
+      margin: 0 0 8px 0;
+    }
+
+    .card-content p {
+      margin: 6px 0;
+      font-size: 14px;
+      line-height: 1.4;
+    }
+
+    .price {
+      font-weight: bold;
+      margin-top: 10px;
+      color: #111;
+    }
+
+    footer {
+      text-align: center;
+      padding: 40px;
+      opacity: 0.6;
+      font-size: 14px;
+    }
+
+    .tagline {
+      margin-top: 10px;
+      font-size: 14px;
+      opacity: 0.85;
+    }
+  </style>
+</head>
+
+<body>
+
+<header>
+  <h1>Торговое оборудование и витрины</h1>
+  <p class="tagline">
+    Производство витрин, меловых досок, штендеров и POS-оборудования
+  </p>
+</header>
+
+<div class="container">
+
+  <!-- ВИТРИНЫ -->
+  <h2>Витрины</h2>
+
+  <div class="grid">
+
+    <div class="card">
+      <div class="img-placeholder">Фото витрины</div>
+      <div class="card-content">
+        <h3>450×450×250 мм</h3>
+        <p>Настольная витрина для выпечки и кондитерских изделий.</p>
+        <p>Дерево, стекло и LED подсветка — аккуратная презентация товара.</p>
+        <div class="price">Уточнить цену</div>
+      </div>
+    </div>
+
+    <div class="card">
+      <div class="img-placeholder">Фото витрины</div>
+      <div class="card-content">
+        <h3>450×600×300 мм</h3>
+        <p>Подходит для кафе, кофеен и пекарен.</p>
+        <p>Прозрачный фасад и лёгкая устойчивая конструкция.</p>
+        <div class="price">Уточнить цену</div>
+      </div>
+    </div>
+
+    <div class="card">
+      <div class="img-placeholder">Фото витрины</div>
+      <div class="card-content">
+        <h3>500×800×400 мм</h3>
+        <p>Увеличенный формат для большего объёма продукции.</p>
+        <p>Идеально для витрин с активными продажами.</p>
+        <div class="price">Уточнить цену</div>
+      </div>
+    </div>
+
+    <div class="card">
+      <div class="img-placeholder">Фото витрины</div>
+      <div class="card-content">
+        <h3>600×600×500 мм</h3>
+        <p>Максимальная вместимость и удобная демонстрация товара.</p>
+        <p>Подходит для крупных точек продаж.</p>
+        <div class="price">Уточнить цену</div>
+      </div>
+    </div>
+
+  </div>
+
+  <!-- ТОРГОВОЕ ОБОРУДОВАНИЕ -->
+  <h2>Торговое оборудование</h2>
+
+  <div class="grid">
+
+    <div class="card">
+      <div class="img-placeholder">Фото меловой доски</div>
+      <div class="card-content">
+        <h3>Меловая доска</h3>
+        <p>Стильная доска для меню, акций и информации.</p>
+        <p>Идеально для кафе, баров и магазинов.</p>
+        <div class="price">Под заказ</div>
+      </div>
+    </div>
+
+    <div class="card">
+      <div class="img-placeholder">Фото штендера</div>
+      <div class="card-content">
+        <h3>Меловой штендер</h3>
+        <p>Уличная реклама для привлечения клиентов с улицы.</p>
+        <p>Эффективный инструмент увеличения потока.</p>
+        <div class="price">Под заказ</div>
+      </div>
+    </div>
+
+    <div class="card">
+      <div class="img-placeholder">Фото ценников</div>
+      <div class="card-content">
+        <h3>Меловые ценники</h3>
+        <p>Компактные ценники для витрин и выкладки товара.</p>
+        <p>Удобно менять информацию вручную.</p>
+        <div class="price">Под заказ</div>
+      </div>
+    </div>
+
+    <div class="card">
+      <div class="img-placeholder">Фото менюхолдера</div>
+      <div class="card-content">
+        <h3>Меловой менюхолдер</h3>
+        <p>Настольный держатель меню или акций.</p>
+        <p>Компактное и стильное решение для бизнеса.</p>
+        <div class="price">Под заказ</div>
+      </div>
+    </div>
+
+  </div>
+
+</div>
+
+<footer>
+  © 2026 Торговое оборудование. Все права защищены.
+</footer>
+
+</body>
+</html>
