@@ -1,947 +1,363 @@
 <!DOCTYPE html>
 <html lang="ru">
+
 <head>
-    <meta charset="UTF-8"/>
-    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-    <link rel="icon" type="image/x-icon" href="favicon.ico">
-
-    <!-- ===== SEO: ОСНОВНЫЕ МЕТА-ТЕГИ ===== -->
-    <title>Торговое оборудование на заказ — витрины, меловые доски, штендеры | PosCraft, Воронеж</title>
-    <meta name="description" content="Производство торгового оборудования в Воронеже. Витрины для выпечки и кондитерских, меловые доски, штендеры, менюхолдеры, ценники. Изготовление под любые размеры, доставка по всей России. Собственное производство с 2019 года. 600+ выполненных заказов."/>
-    <meta name="keywords" content="витрина для выпечки, витрина для кафе, меловая доска на заказ, меловой штендер, менюхолдер, ценники меловые, торговое оборудование Воронеж, витрина деревянная, штендер для кофейни, производство торгового оборудования"/>
-    <meta name="author" content="PosCraft"/>
-    <meta name="robots" content="index, follow"/>
-    <link rel="canonical" href="https://poscraft.ru/"/>
-
-    <!-- ===== SEO: ГЕОЛОКАЦИЯ ===== -->
-    <meta name="geo.region" content="RU-VOR"/>
-    <meta name="geo.placename" content="Воронеж"/>
-
-    <!-- ===== SEO: OPEN GRAPH (соцсети, мессенджеры) ===== -->
-    <meta property="og:type" content="website"/>
-    <meta property="og:url" content="https://poscraft.ru/"/>
-    <meta property="og:title" content="PosCraft — Витрины и торговое оборудование на заказ"/>
-    <meta property="og:description" content="Производство витрин, меловых досок, штендеров и менюхолдеров. Собственное производство в Воронеже с 2019 года. Доставка по всей России."/>
-    <meta property="og:image" content="https://poscraft.ru/images/vitrina_45_60_30.webp"/>
-    <meta property="og:locale" content="ru_RU"/>
-    <meta property="og:site_name" content="PosCraft"/>
-
-    <!-- ===== SEO: TWITTER/X CARD ===== -->
-    <meta name="twitter:card" content="summary_large_image"/>
-    <meta name="twitter:title" content="PosCraft — Витрины и торговое оборудование на заказ"/>
-    <meta name="twitter:description" content="Производство витрин, меловых досок, штендеров. Доставка по России."/>
-    <meta name="twitter:image" content="https://poscraft.ru/images/vitrina_45_60_30.webp"/>
-
-    <!-- ===== SEO: СТРУКТУРИРОВАННЫЕ ДАННЫЕ schema.org ===== -->
-    <script type="application/ld+json">
-    {
-      "@context": "https://schema.org",
-      "@type": "LocalBusiness",
-      "name": "PosCraft",
-      "description": "Производство торгового оборудования: витрины, меловые доски, штендеры, менюхолдеры, ценники. Изготовление под любые размеры.",
-      "url": "https://poscraft.ru",
-      "telephone": "+79525514906",
-      "email": "ruslanstegancev175@gmail.com",
-      "foundingDate": "2019",
-      "address": {
-        "@type": "PostalAddress",
-        "addressLocality": "Воронеж",
-        "addressRegion": "Воронежская область",
-        "addressCountry": "RU"
-      },
-      "areaServed": {
-        "@type": "Country",
-        "name": "Россия"
-      },
-      "sameAs": [
-        "https://t.me/stegruslan",
-        "https://max.ru/u/f9LHodD0cOJj3__WqY2e4vFNyRtDeu-g9kXnE26N12MBbp6iLhV77JUU4lA"
-      ],
-      "hasOfferCatalog": {
-        "@type": "OfferCatalog",
-        "name": "Торговое оборудование",
-        "itemListElement": [
-          {
-            "@type": "Product",
-            "name": "Витрина для выпечки 450×450×250 мм",
-            "description": "Настольная витрина для выпечки и кондитерских изделий. Дерево, стекло, LED-подсветка.",
-            "image": "https://poscraft.ru/images/vitrina_45_45_25.webp",
-            "offers": {
-              "@type": "Offer",
-              "price": "6800",
-              "priceCurrency": "RUB",
-              "availability": "https://schema.org/InStock"
-            }
-          },
-          {
-            "@type": "Product",
-            "name": "Витрина для кафе 450×600×300 мм",
-            "description": "Витрина для кафе и кофеен. Прозрачный фасад и лёгкая конструкция.",
-            "image": "https://poscraft.ru/images/vitrina_45_60_30.webp",
-            "offers": {
-              "@type": "Offer",
-              "price": "9400",
-              "priceCurrency": "RUB",
-              "availability": "https://schema.org/InStock"
-            }
-          },
-          {
-            "@type": "Product",
-            "name": "Меловая доска на заказ",
-            "description": "Меловая доска для меню, акций и информации для клиентов.",
-            "offers": {
-              "@type": "Offer",
-              "price": "1200",
-              "priceCurrency": "RUB",
-              "availability": "https://schema.org/InStock"
-            }
-          },
-          {
-            "@type": "Product",
-            "name": "Меловой штендер",
-            "description": "Штендер меловой для привлечения клиентов с улицы.",
-            "offers": {
-              "@type": "Offer",
-              "price": "2000",
-              "priceCurrency": "RUB",
-              "availability": "https://schema.org/InStock"
-            }
-          }
-        ]
-      },
-      "aggregateRating": {
-        "@type": "AggregateRating",
-        "ratingValue": "5",
-        "reviewCount": "3",
-        "bestRating": "5"
-      },
-      "review": [
-        {
-          "@type": "Review",
-          "itemReviewed": {
-            "@type": "LocalBusiness",
-            "name": "PosCraft"
-          },
-          "reviewRating": {
-            "@type": "Rating",
-            "ratingValue": "5",
-            "bestRating": "5"
-          },
-          "author": {
-            "@type": "Person",
-            "name": "Анна К."
-          },
-          "reviewBody": "Заказывали витрину под выпечку — сделали быстро, качество отличное, всё пришло целым через СДЭК. Рекомендуем!"
-        },
-        {
-          "@type": "Review",
-          "itemReviewed": {
-            "@type": "LocalBusiness",
-            "name": "PosCraft"
-          },
-          "reviewRating": {
-            "@type": "Rating",
-            "ratingValue": "5",
-            "bestRating": "5"
-          },
-          "author": {
-            "@type": "Person",
-            "name": "Дмитрий М."
-          },
-          "reviewBody": "Заказали меловые штендеры для двух точек. Упаковка отличная. Смотрятся очень достойно у входа."
-        },
-        {
-          "@type": "Review",
-          "itemReviewed": {
-            "@type": "LocalBusiness",
-            "name": "PosCraft"
-          },
-          "reviewRating": {
-            "@type": "Rating",
-            "ratingValue": "5",
-            "bestRating": "5"
-          },
-          "author": {
-            "@type": "Person",
-            "name": "Ирина С."
-          },
-          "reviewBody": "Делали нестандартный размер витрины — всё сделали как надо, по замерам. Сроки выдержали, документы предоставили."
-        }
-      ]
-    }
-    </script>
-
-    <style>
-        :root {
-            --bg: #0e0f12;
-            --card: #171922;
-            --muted: #a0a4b8;
-            --text: #ffffff;
-            --accent: #ffb74d;
-            --stroke: rgba(255, 255, 255, 0.08);
-        }
-
-        * {
-            box-sizing: border-box;
-        }
-
-        body {
-            margin: 0;
-            font-family: Arial, sans-serif;
-            background: var(--bg);
-            color: var(--text);
-        }
-
-        /* HERO */
-        header {
-            padding: 80px 20px 60px;
-            text-align: center;
-            background: radial-gradient(circle at top, #1b1e2a, var(--bg));
-            position: relative;
-        }
-
-        .badge {
-            display: inline-block;
-            background: rgba(255, 183, 77, 0.15);
-            border: 1px solid rgba(255, 183, 77, 0.4);
-            color: var(--accent);
-            font-size: 13px;
-            padding: 5px 14px;
-            border-radius: 20px;
-            margin-bottom: 18px;
-            letter-spacing: 0.5px;
-        }
-
-        header h1 {
-            font-size: 42px;
-            margin: 0;
-            letter-spacing: 1px;
-            line-height: 1.2;
-        }
-
-        header p {
-            margin: 14px auto 0;
-            color: var(--muted);
-            font-size: 17px;
-            max-width: 560px;
-            line-height: 1.6;
-        }
-
-        .hero-line {
-            width: 60px;
-            height: 2px;
-            background: var(--accent);
-            margin: 22px auto;
-        }
-
-        .hero-btns {
-            display: flex;
-            gap: 12px;
-            justify-content: center;
-            flex-wrap: wrap;
-            margin-top: 28px;
-        }
-
-        .btn-primary {
-            display: inline-block;
-            padding: 14px 28px;
-            background: var(--accent);
-            color: #111;
-            border-radius: 12px;
-            text-decoration: none;
-            font-weight: bold;
-            font-size: 15px;
-        }
-
-        .btn-secondary {
-            display: inline-block;
-            padding: 14px 28px;
-            background: transparent;
-            color: var(--text);
-            border: 1px solid rgba(255, 255, 255, 0.25);
-            border-radius: 12px;
-            text-decoration: none;
-            font-size: 15px;
-        }
-
-        .btn-max {
-            display: inline-block;
-            padding: 14px 28px;
-            background: #2563EB;
-            color: #fff;
-            border-radius: 12px;
-            text-decoration: none;
-            font-weight: bold;
-            font-size: 15px;
-        }
-
-        .btn-primary:hover { opacity: 0.9; }
-        .btn-secondary:hover { border-color: rgba(255, 255, 255, 0.5); }
-        .btn-max:hover { opacity: 0.9; }
-
-        /* STATS */
-        .stats-bar {
-            display: flex;
-            justify-content: center;
-            flex-wrap: wrap;
-            gap: 0;
-            background: #13151e;
-            border-top: 1px solid var(--stroke);
-            border-bottom: 1px solid var(--stroke);
-        }
-
-        .stat-item {
-            padding: 22px 40px;
-            text-align: center;
-            border-right: 1px solid var(--stroke);
-        }
-
-        .stat-item:last-child { border-right: none; }
-
-        .stat-num {
-            font-size: 30px;
-            font-weight: bold;
-            color: var(--accent);
-        }
-
-        .stat-label {
-            font-size: 12px;
-            color: var(--muted);
-            margin-top: 4px;
-        }
-
-        /* CONTAINER */
-        .container {
-            max-width: 1100px;
-            margin: auto;
-            padding: 50px 20px;
-        }
-
-        h2 {
-            margin-top: 60px;
-            font-size: 24px;
-            border-left: 3px solid var(--accent);
-            padding-left: 12px;
-        }
-
-        /* CARDS */
-        .grid {
-            display: grid;
-            grid-template-columns: repeat(2, 1fr);
-            gap: 18px;
-            margin-top: 20px;
-        }
-
-        .card {
-            background: var(--card);
-            border: 1px solid var(--stroke);
-            border-radius: 16px;
-            overflow: hidden;
-            transition: 0.25s;
-        }
-
-        .card:hover {
-            transform: translateY(-6px);
-            border-color: rgba(255, 183, 77, 0.4);
-        }
-
-        .card img {
-            width: 100%;
-            aspect-ratio: 4/3;
-            object-fit: contain;
-            background: #1a1c26;
-        }
-
-        @media (max-width: 600px) {
-            .grid { grid-template-columns: 1fr; }
-            header h1 { font-size: 28px; }
-        }
-
-        .card-content { padding: 16px; }
-
-        .card-content h3 {
-            margin: 0 0 8px 0;
-            font-size: 18px;
-        }
-
-        .card-content p {
-            margin: 6px 0;
-            font-size: 13px;
-            color: var(--muted);
-            line-height: 1.4;
-        }
-
-        .price {
-            margin-top: 10px;
-            font-weight: bold;
-            color: var(--accent);
-        }
-
-        .card-btns {
-            display: flex;
-            gap: 8px;
-            flex-wrap: wrap;
-            margin-top: 12px;
-        }
-
-        .btn {
-            display: inline-block;
-            padding: 10px 14px;
-            background: var(--accent);
-            color: #111;
-            border-radius: 10px;
-            text-decoration: none;
-            font-weight: bold;
-            font-size: 13px;
-        }
-
-        .btn-card-max {
-            display: inline-block;
-            padding: 10px 14px;
-            background: #2563EB;
-            color: #fff;
-            border-radius: 10px;
-            text-decoration: none;
-            font-weight: bold;
-            font-size: 13px;
-        }
-
-        .btn:hover { opacity: 0.9; }
-        .btn-card-max:hover { opacity: 0.9; }
-
-        /* PROCESS */
-        .process-grid {
-            display: grid;
-            grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
-            gap: 16px;
-            margin-top: 20px;
-        }
-
-        .process-step {
-            background: var(--card);
-            border: 1px solid var(--stroke);
-            border-radius: 14px;
-            padding: 20px;
-        }
-
-        .step-num {
-            font-size: 36px;
-            font-weight: bold;
-            color: rgba(255, 183, 77, 0.2);
-            line-height: 1;
-            margin-bottom: 10px;
-        }
-
-        .process-step h4 { margin: 0 0 6px; font-size: 15px; }
-        .process-step p { margin: 0; font-size: 13px; color: var(--muted); line-height: 1.5; }
-
-        /* WHY */
-        .why-grid {
-            display: grid;
-            grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
-            gap: 14px;
-            margin-top: 20px;
-        }
-
-        .why-item {
-            background: var(--card);
-            border: 1px solid var(--stroke);
-            border-radius: 14px;
-            padding: 18px 20px;
-            display: flex;
-            gap: 14px;
-            align-items: flex-start;
-        }
-
-        .why-icon {
-            width: 36px;
-            height: 36px;
-            background: rgba(255, 183, 77, 0.12);
-            border-radius: 8px;
-            display: flex;
-            align-items: center;
-            justify-content: center;
-            font-size: 16px;
-            flex-shrink: 0;
-        }
-
-        .why-item h4 { margin: 0 0 4px; font-size: 14px; }
-        .why-item p { margin: 0; font-size: 12px; color: var(--muted); line-height: 1.4; }
-
-        /* REVIEWS */
-        .review-grid {
-            display: grid;
-            grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
-            gap: 16px;
-            margin-top: 20px;
-        }
-
-        .review-card {
-            background: var(--card);
-            border: 1px solid var(--stroke);
-            border-radius: 14px;
-            padding: 20px;
-        }
-
-        .review-stars { color: var(--accent); font-size: 15px; margin-bottom: 10px; }
-        .review-text { font-size: 14px; color: var(--muted); line-height: 1.6; margin-bottom: 14px; }
-
-        .reviewer { display: flex; align-items: center; gap: 10px; }
-
-        .reviewer-avatar {
-            width: 36px;
-            height: 36px;
-            border-radius: 50%;
-            background: rgba(255, 183, 77, 0.2);
-            display: flex;
-            align-items: center;
-            justify-content: center;
-            font-size: 14px;
-            font-weight: bold;
-            color: var(--accent);
-        }
-
-        .reviewer-name { font-size: 13px; font-weight: bold; }
-        .reviewer-meta { font-size: 12px; color: var(--muted); }
-
-        /* DELIVERY */
-        .delivery-block {
-            background: var(--card);
-            border: 1px solid var(--stroke);
-            border-radius: 14px;
-            padding: 24px;
-            margin-top: 20px;
-            display: flex;
-            gap: 30px;
-            flex-wrap: wrap;
-            align-items: center;
-        }
-
-        .delivery-logos { display: flex; gap: 12px; flex-wrap: wrap; align-items: center; }
-
-        .delivery-logo {
-            background: rgba(255, 255, 255, 0.06);
-            border: 1px solid var(--stroke);
-            border-radius: 8px;
-            padding: 7px 14px;
-            font-size: 13px;
-            font-weight: bold;
-        }
-
-        .delivery-text { color: var(--muted); font-size: 14px; line-height: 1.6; flex: 1; min-width: 200px; }
-
-        /* CONTACTS */
-        .contacts-grid {
-            background: #171922;
-            border: 1px solid rgba(255,255,255,0.08);
-            border-radius: 16px;
-            padding: 30px;
-            display: flex;
-            flex-wrap: wrap;
-            gap: 12px;
-        }
-
-        .contact-link {
-            display: flex;
-            align-items: center;
-            gap: 12px;
-            background: rgba(255,255,255,0.05);
-            border: 1px solid rgba(255,255,255,0.08);
-            border-radius: 12px;
-            padding: 14px 20px;
-            text-decoration: none;
-            color: #fff;
-            font-size: 15px;
-            transition: 0.2s;
-        }
-
-        .contact-link:hover {
-            background: rgba(255,255,255,0.09);
-            border-color: rgba(255,255,255,0.2);
-        }
-
-        .contact-link.max-link {
-            border-color: rgba(37, 99, 235, 0.4);
-            background: rgba(37, 99, 235, 0.08);
-        }
-
-        .contact-link.max-link:hover {
-            background: rgba(37, 99, 235, 0.15);
-        }
-
-        footer {
-            text-align: center;
-            padding: 40px;
-            color: var(--muted);
-            font-size: 13px;
-            border-top: 1px solid var(--stroke);
-            margin-top: 60px;
-        }
-
-        footer a { color: var(--accent); text-decoration: none; margin: 0 6px; }
-
-        /* MESSENGER ICONS */
-        .msg-icon {
-            width: 22px;
-            height: 22px;
-            flex-shrink: 0;
-            display: inline-block;
-            vertical-align: middle;
-        }
-    </style>
-
-    <!-- SVG-символы мессенджеров (скрытые, используются через <use>) -->
-        <svg style="display:none" xmlns="http://www.w3.org/2000/svg">
-        <defs>
-            <linearGradient id="maxGrad" x1="0" y1="0" x2="1" y2="1">
-                <stop offset="0%" stop-color="#A855F7"/>
-                <stop offset="100%" stop-color="#3B82F6"/>
-            </linearGradient>
-        </defs>
-        <symbol id="icon-telegram" viewBox="0 0 24 24">
-            <rect width="24" height="24" rx="12" fill="#229ED9"/>
-            <path fill="white" d="M5.2 11.4 17.5 6.6c.8-.3 1.5.1 1.2 1.2l-2.7 12.4c-.2.8-.7 1-1.2.7l-3.3-2.5-1.6 1.5c-.2.2-.4.2-.8.2l.3-3.5 6.5-5.9c.3-.3 0-.4-.4-.1L7.6 13.1 5.1 12.4c-.8-.3-.8-.8.1-1z"/>
-        </symbol>
-        <symbol id="icon-max" viewBox="0 0 24 24">
-            <rect width="24" height="24" rx="6" fill="url(#maxGrad)"/>
-            <circle cx="12" cy="10.5" r="6" fill="white"/>
-            <polygon points="7,15 4.5,20 9.5,17" fill="white"/>
-            <circle cx="12" cy="10.5" r="3.2" fill="url(#maxGrad)"/>
-        </symbol>
-    </svg>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Торговое оборудование на заказ — витрины, меловые доски, штендеры | PosCraft, Воронеж</title>
+  <meta name="description"
+    content="Производство торгового оборудования в Воронеже. Витрины для выпечки и кондитерских, меловые доски, штендеры, менюхолдеры, ценники. Любые размеры, доставка по всей России. С 2019 года. 600+ заказов.">
+  <meta name="keywords"
+    content="витрина для выпечки, витрина для кафе, меловая доска на заказ, меловой штендер, менюхолдер, ценники меловые, торговое оборудование Воронеж">
+  <meta name="author" content="PosCraft">
+  <link rel="canonical" href="https://poscraft.ru/">
+  <meta property="og:title" content="PosCraft — Витрины и торговое оборудование на заказ">
+  <meta property="og:description"
+    content="Производство витрин, меловых досок, штендеров и менюхолдеров. Воронеж, с 2019 года. Доставка по России.">
+  <meta property="og:image" content="https://poscraft.ru/images/vitrina_45_60_30.webp">
+  <meta property="og:url" content="https://poscraft.ru/">
+  <meta property="og:type" content="website">
+  <meta property="og:locale" content="ru_RU">
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="geo.region" content="RU-VOR">
+  <meta name="geo.placename" content="Воронеж">
+  <meta name="robots" content="index, follow">
+  <link rel="icon" href="/favicon.ico">
+  <link rel="stylesheet" href="/style.css">
 </head>
+
 <body>
 
-<header>
-    <div class="badge">Собственное производство · Работаем с 2019 года · Воронеж</div>
-    <h1>Торговое оборудование для бизнеса</h1>
-    <div class="hero-line"></div>
-    <p>Витрины, меловые доски, штендеры, менюхолдеры и ценники. Изготовление под любые размеры. Доставка по всей России.</p>
-    <div class="hero-btns">
-        <a class="btn-primary" href="https://t.me/stegruslan" aria-label="Написать в Telegram"><svg class="msg-icon" style="color:#fff;display:inline-block;vertical-align:middle;margin-right:4px"><use href="#icon-telegram"/></svg> Написать в Telegram</a>
-        <a class="btn-max" href="https://max.ru/u/f9LHodD0cOJj3__WqY2e4vFNyRtDeu-g9kXnE26N12MBbp6iLhV77JUU4lA" aria-label="Написать в Max"><svg class="msg-icon" style="display:inline-block;vertical-align:middle;margin-right:4px"><use href="#icon-max"/></svg> Написать в Max</a>
-        <a class="btn-secondary" href="#catalog">Смотреть каталог</a>
+  <nav class="site-nav">
+    <div class="site-nav__inner">
+      <a href="/" class="site-nav__logo">PosCraft</a>
+      <a href="/vitriny/" class="site-nav__link">Витрины</a>
+      <a href="/melovye-doski/" class="site-nav__link">Меловые доски</a>
+      <a href="/shtendery/" class="site-nav__link">Штендеры</a>
+      <a href="/menuholdery/" class="site-nav__link">Менюхолдеры</a>
+      <a href="/czenniki/" class="site-nav__link">Ценники</a>
     </div>
-</header>
+  </nav>
 
-<!-- STATS -->
-<div class="stats-bar">
+  <header class="hero">
+    <div class="container">
+      <div class="hero__badge">Собственное производство · Работаем с 2019 года · Воронеж</div>
+      <h1>Торговое оборудование<br>для вашего бизнеса</h1>
+      <div class="hero__line"></div>
+      <p class="hero__sub">Витрины, меловые доски, штендеры, менюхолдеры и ценники. Изготовление под любые размеры.
+        Доставка по всей России.</p>
+      <div class="hero__btns">
+        <a href="https://t.me/stegruslan" class="btn btn-gold">✈ Написать в Telegram</a>
+        <a href="https://max.ru/u/f9LHodD0cOJj3__WqY2e4vFNyRtDeu-g9kXnE26N12MBbp6iLhV77JUU4lA" class="btn btn-blue">💬
+          Написать в Max</a>
+        <a href="#catalog" class="btn btn-ghost">Смотреть каталог</a>
+      </div>
+    </div>
+  </header>
+
+  <div class="stats-bar">
     <div class="stat-item">
-        <div class="stat-num">5+</div>
-        <div class="stat-label">лет на рынке</div>
+      <div class="stat-num">5+</div>
+      <div class="stat-label">лет на рынке</div>
     </div>
     <div class="stat-item">
-        <div class="stat-num">600+</div>
-        <div class="stat-label">выполненных заказов</div>
+      <div class="stat-num">600+</div>
+      <div class="stat-label">выполненных заказов</div>
     </div>
     <div class="stat-item">
-        <div class="stat-num">50+</div>
-        <div class="stat-label">городов доставки</div>
+      <div class="stat-num">50+</div>
+      <div class="stat-label">городов доставки</div>
     </div>
     <div class="stat-item">
-        <div class="stat-num">100%</div>
-        <div class="stat-label">собственное производство</div>
+      <div class="stat-num">100%</div>
+      <div class="stat-label">собственное производство</div>
     </div>
-</div>
+  </div>
 
-<div class="container">
-
-    <!-- CATALOG -->
-    <h2 id="catalog">Витрины для кафе и кондитерских</h2>
-    <div class="grid">
-
+  <div class="container" id="catalog">
+    <section class="section">
+      <div class="section__head">
+        <h2 class="section__title">Витрины для кафе и кондитерских</h2>
+        <p class="section__sub">Дерево, стекло, LED-подсветка. Стандартные и нестандартные размеры. <a
+            href="/vitriny/">Все витрины →</a></p>
+      </div>
+      <div class="cards">
         <div class="card">
-            <img src="images/vitrina_45_45_25.webp" alt="Витрина для выпечки 450×450×250 мм, дерево стекло LED">
-            <div class="card-content">
-                <h3>Витрина 450×450×250 мм</h3>
-                <p>Настольная витрина для выпечки и кондитерских изделий.</p>
-                <p>Дерево, стекло, LED-подсветка.</p>
-                <div class="price">6800 р.</div>
-                <div class="card-btns">
-                    <a class="btn" href="https://t.me/stegruslan"><svg class="msg-icon" style="color:#fff;display:inline-block;vertical-align:middle;margin-right:4px"><use href="#icon-telegram"/></svg> Telegram</a>
-                    <a class="btn-card-max" href="https://max.ru/u/f9LHodD0cOJj3__WqY2e4vFNyRtDeu-g9kXnE26N12MBbp6iLhV77JUU4lA"><svg class="msg-icon" style="display:inline-block;vertical-align:middle;margin-right:4px"><use href="#icon-max"/></svg> Max</a>
-                </div>
+          <img class="card__img" src="/images/vitrina_45_45_25.webp" alt="Витрина для выпечки 450×450×250 мм"
+            loading="lazy">
+          <div class="card__body">
+            <div class="card__title">Витрина 450×450×250 мм</div>
+            <div class="card__desc">Настольная витрина для выпечки и кондитерских изделий. Дерево, стекло,
+              LED-подсветка.</div>
+            <div class="card__price">6 800 р.</div>
+            <div class="card__btns">
+              <a href="https://t.me/stegruslan" class="btn btn-gold btn-sm">Telegram</a>
+              <a href="https://max.ru/u/f9LHodD0cOJj3__WqY2e4vFNyRtDeu-g9kXnE26N12MBbp6iLhV77JUU4lA"
+                class="btn btn-blue btn-sm">Max</a>
             </div>
+          </div>
         </div>
-
         <div class="card">
-            <img src="images/vitrina_45_60_30.webp" alt="Витрина для кофейни 450×600×300 мм">
-            <div class="card-content">
-                <h3>Витрина 450×600×300 мм</h3>
-                <p>Идеально для кафе и кофеен.</p>
-                <p>Прозрачный фасад и лёгкая конструкция.</p>
-                <div class="price">9400 р.</div>
-                <div class="card-btns">
-                    <a class="btn" href="https://t.me/stegruslan"><svg class="msg-icon" style="color:#fff;display:inline-block;vertical-align:middle;margin-right:4px"><use href="#icon-telegram"/></svg> Telegram</a>
-                    <a class="btn-card-max" href="https://max.ru/u/f9LHodD0cOJj3__WqY2e4vFNyRtDeu-g9kXnE26N12MBbp6iLhV77JUU4lA"><svg class="msg-icon" style="display:inline-block;vertical-align:middle;margin-right:4px"><use href="#icon-max"/></svg> Max</a>
-                </div>
+          <img class="card__img" src="/images/vitrina_45_60_30.webp" alt="Витрина для кофейни 450×600×300 мм"
+            loading="lazy">
+          <div class="card__body">
+            <div class="card__title">Витрина 450×600×300 мм</div>
+            <div class="card__desc">Идеально для кафе и кофеен. Прозрачный фасад и лёгкая конструкция.</div>
+            <div class="card__price">9 400 р.</div>
+            <div class="card__btns">
+              <a href="https://t.me/stegruslan" class="btn btn-gold btn-sm">Telegram</a>
+              <a href="https://max.ru/u/f9LHodD0cOJj3__WqY2e4vFNyRtDeu-g9kXnE26N12MBbp6iLhV77JUU4lA"
+                class="btn btn-blue btn-sm">Max</a>
             </div>
+          </div>
         </div>
-
         <div class="card">
-            <img src="images/vitrina_50_80_40.webp" alt="Витрина торговая 500×800×400 мм">
-            <div class="card-content">
-                <h3>Витрина 500×800×400 мм</h3>
-                <p>Увеличенный формат для активных продаж.</p>
-                <div class="price">11800 р.</div>
-                <div class="card-btns">
-                    <a class="btn" href="https://t.me/stegruslan"><svg class="msg-icon" style="color:#fff;display:inline-block;vertical-align:middle;margin-right:4px"><use href="#icon-telegram"/></svg> Telegram</a>
-                    <a class="btn-card-max" href="https://max.ru/u/f9LHodD0cOJj3__WqY2e4vFNyRtDeu-g9kXnE26N12MBbp6iLhV77JUU4lA"><svg class="msg-icon" style="display:inline-block;vertical-align:middle;margin-right:4px"><use href="#icon-max"/></svg> Max</a>
-                </div>
+          <img class="card__img" src="/images/vitrina_50_80_40.webp" alt="Витрина торговая 500×800×400 мм"
+            loading="lazy">
+          <div class="card__body">
+            <div class="card__title">Витрина 500×800×400 мм</div>
+            <div class="card__desc">Увеличенный формат для активных продаж.</div>
+            <div class="card__price">11 800 р.</div>
+            <div class="card__btns">
+              <a href="https://t.me/stegruslan" class="btn btn-gold btn-sm">Telegram</a>
+              <a href="https://max.ru/u/f9LHodD0cOJj3__WqY2e4vFNyRtDeu-g9kXnE26N12MBbp6iLhV77JUU4lA"
+                class="btn btn-blue btn-sm">Max</a>
             </div>
+          </div>
         </div>
-
         <div class="card">
-            <img src="images/vitrina_60_60_50.webp" alt="Большая витрина 600×600×500 мм">
-            <div class="card-content">
-                <h3>Витрина 600×600×500 мм</h3>
-                <p>Максимальная вместимость и презентация товара.</p>
-                <div class="price">11800 р.</div>
-                <div class="card-btns">
-                    <a class="btn" href="https://t.me/stegruslan"><svg class="msg-icon" style="color:#fff;display:inline-block;vertical-align:middle;margin-right:4px"><use href="#icon-telegram"/></svg> Telegram</a>
-                    <a class="btn-card-max" href="https://max.ru/u/f9LHodD0cOJj3__WqY2e4vFNyRtDeu-g9kXnE26N12MBbp6iLhV77JUU4lA"><svg class="msg-icon" style="display:inline-block;vertical-align:middle;margin-right:4px"><use href="#icon-max"/></svg> Max</a>
-                </div>
+          <img class="card__img" src="/images/vitrina_60_60_50.webp" alt="Большая витрина 600×600×500 мм"
+            loading="lazy">
+          <div class="card__body">
+            <div class="card__title">Витрина 600×600×500 мм</div>
+            <div class="card__desc">Максимальная вместимость и презентация товара.</div>
+            <div class="card__price">11 800 р.</div>
+            <div class="card__btns">
+              <a href="https://t.me/stegruslan" class="btn btn-gold btn-sm">Telegram</a>
+              <a href="https://max.ru/u/f9LHodD0cOJj3__WqY2e4vFNyRtDeu-g9kXnE26N12MBbp6iLhV77JUU4lA"
+                class="btn btn-blue btn-sm">Max</a>
             </div>
+          </div>
         </div>
+      </div>
+    </section>
 
-    </div>
-
-    <h2>Меловые изделия и торговое оборудование</h2>
-    <div class="grid">
-
+    <section class="section">
+      <div class="section__head">
+        <h2 class="section__title">Меловые изделия и оборудование</h2>
+        <p class="section__sub">Доски, штендеры, менюхолдеры и ценники для оформления вашей точки.</p>
+      </div>
+      <div class="cards">
         <div class="card">
-            <img src="images/melovaya_doska.webp" alt="Меловая доска на заказ для кафе">
-            <div class="card-content">
-                <h3>Меловая доска</h3>
-                <p>Меню, акции, информация для клиентов.</p>
-                <div class="price">от 1200 р.</div>
-                <div class="card-btns">
-                    <a class="btn" href="https://t.me/stegruslan"><svg class="msg-icon" style="color:#fff;display:inline-block;vertical-align:middle;margin-right:4px"><use href="#icon-telegram"/></svg> Telegram</a>
-                    <a class="btn-card-max" href="https://max.ru/u/f9LHodD0cOJj3__WqY2e4vFNyRtDeu-g9kXnE26N12MBbp6iLhV77JUU4lA"><svg class="msg-icon" style="display:inline-block;vertical-align:middle;margin-right:4px"><use href="#icon-max"/></svg> Max</a>
-                </div>
+          <img class="card__img" src="/images/melovaya_doska.webp" alt="Меловая доска на заказ" loading="lazy">
+          <div class="card__body">
+            <div class="card__title"><a href="/melovye-doski/" style="color:inherit">Меловая доска</a></div>
+            <div class="card__desc">Меню, акции, информация для клиентов. Любые размеры на заказ.</div>
+            <div class="card__price">от 1 200 р.</div>
+            <div class="card__btns">
+              <a href="https://t.me/stegruslan" class="btn btn-gold btn-sm">Telegram</a>
+              <a href="/melovye-doski/" class="btn btn-ghost btn-sm">Подробнее</a>
             </div>
+          </div>
         </div>
-
         <div class="card">
-            <img src="images/melovoy_schender.webp" alt="Меловой штендер для кофейни и магазина">
-            <div class="card-content">
-                <h3>Меловой штендер</h3>
-                <p>Привлечение клиентов с улицы.</p>
-                <div class="price">от 2000 р.</div>
-                <div class="card-btns">
-                    <a class="btn" href="https://t.me/stegruslan"><svg class="msg-icon" style="color:#fff;display:inline-block;vertical-align:middle;margin-right:4px"><use href="#icon-telegram"/></svg> Telegram</a>
-                    <a class="btn-card-max" href="https://max.ru/u/f9LHodD0cOJj3__WqY2e4vFNyRtDeu-g9kXnE26N12MBbp6iLhV77JUU4lA"><svg class="msg-icon" style="display:inline-block;vertical-align:middle;margin-right:4px"><use href="#icon-max"/></svg> Max</a>
-                </div>
+          <img class="card__img" src="/images/melovoy_schender.webp" alt="Меловой штендер" loading="lazy">
+          <div class="card__body">
+            <div class="card__title"><a href="/shtendery/" style="color:inherit">Меловой штендер</a></div>
+            <div class="card__desc">Привлечение клиентов с улицы. Устойчивая конструкция.</div>
+            <div class="card__price">от 2 000 р.</div>
+            <div class="card__btns">
+              <a href="https://t.me/stegruslan" class="btn btn-gold btn-sm">Telegram</a>
+              <a href="/shtendery/" class="btn btn-ghost btn-sm">Подробнее</a>
             </div>
+          </div>
         </div>
-
         <div class="card">
-            <img src="images/melovy_chenniki.webp" alt="Меловые ценники для витрин">
-            <div class="card-content">
-                <h3>Меловые ценники</h3>
-                <p>Для витрин и выкладки товара.</p>
-                <div class="price">от 50 р.</div>
-                <div class="card-btns">
-                    <a class="btn" href="https://t.me/stegruslan"><svg class="msg-icon" style="color:#fff;display:inline-block;vertical-align:middle;margin-right:4px"><use href="#icon-telegram"/></svg> Telegram</a>
-                    <a class="btn-card-max" href="https://max.ru/u/f9LHodD0cOJj3__WqY2e4vFNyRtDeu-g9kXnE26N12MBbp6iLhV77JUU4lA"><svg class="msg-icon" style="display:inline-block;vertical-align:middle;margin-right:4px"><use href="#icon-max"/></svg> Max</a>
-                </div>
+          <img class="card__img" src="/images/melovy_chenniki.webp" alt="Меловые ценники" loading="lazy">
+          <div class="card__body">
+            <div class="card__title"><a href="/czenniki/" style="color:inherit">Меловые ценники</a></div>
+            <div class="card__desc">Для витрин и выкладки товара. Многоразовые, аккуратные.</div>
+            <div class="card__price">от 50 р.</div>
+            <div class="card__btns">
+              <a href="https://t.me/stegruslan" class="btn btn-gold btn-sm">Telegram</a>
+              <a href="/czenniki/" class="btn btn-ghost btn-sm">Подробнее</a>
             </div>
+          </div>
         </div>
-
         <div class="card">
-            <img src="images/menuholder.webp" alt="Меловой менюхолдер настольный">
-            <div class="card-content">
-                <h3>Меловой менюхолдер</h3>
-                <p>Настольное оформление меню и акций.</p>
-                <div class="price">от 1400 р.</div>
-                <div class="card-btns">
-                    <a class="btn" href="https://t.me/stegruslan"><svg class="msg-icon" style="color:#fff;display:inline-block;vertical-align:middle;margin-right:4px"><use href="#icon-telegram"/></svg> Telegram</a>
-                    <a class="btn-card-max" href="https://max.ru/u/f9LHodD0cOJj3__WqY2e4vFNyRtDeu-g9kXnE26N12MBbp6iLhV77JUU4lA"><svg class="msg-icon" style="display:inline-block;vertical-align:middle;margin-right:4px"><use href="#icon-max"/></svg> Max</a>
-                </div>
+          <img class="card__img" src="/images/menuholder.webp" alt="Меловой менюхолдер" loading="lazy">
+          <div class="card__body">
+            <div class="card__title"><a href="/menuholdery/" style="color:inherit">Меловой менюхолдер</a></div>
+            <div class="card__desc">Настольное оформление меню и акций для столиков и прилавков.</div>
+            <div class="card__price">от 1 400 р.</div>
+            <div class="card__btns">
+              <a href="https://t.me/stegruslan" class="btn btn-gold btn-sm">Telegram</a>
+              <a href="/menuholdery/" class="btn btn-ghost btn-sm">Подробнее</a>
             </div>
+          </div>
         </div>
+      </div>
+    </section>
 
-    </div>
+    <section class="section">
+      <div class="section__head">
+        <h2 class="section__title">Как проходит заказ</h2>
+      </div>
+      <div class="steps">
+        <div class="step">
+          <div class="step__num">01</div>
+          <div class="step__title">Заявка</div>
+          <div class="step__desc">Напишите в Telegram или Max — обсудим размеры, материал и количество.</div>
+        </div>
+        <div class="step">
+          <div class="step__num">02</div>
+          <div class="step__title">Расчёт и оплата</div>
+          <div class="step__desc">Выставляем счёт. Работаем с физлицами и юрлицами, есть безналичный расчёт.</div>
+        </div>
+        <div class="step">
+          <div class="step__num">03</div>
+          <div class="step__title">Производство</div>
+          <div class="step__desc">Изготавливаем в срок 5–14 рабочих дней на собственном производстве.</div>
+        </div>
+        <div class="step">
+          <div class="step__num">04</div>
+          <div class="step__title">Отправка</div>
+          <div class="step__desc">Надёжно упаковываем. Отправляем с фото и трек-номером через СДЭК.</div>
+        </div>
+      </div>
+    </section>
 
-    <!-- PROCESS -->
-    <h2>Как проходит заказ</h2>
-    <div class="process-grid">
-        <div class="process-step">
-            <div class="step-num">01</div>
-            <h4>Заявка</h4>
-            <p>Напишите в Telegram или Max — обсудим размеры, материал и количество.</p>
-        </div>
-        <div class="process-step">
-            <div class="step-num">02</div>
-            <h4>Расчёт и оплата</h4>
-            <p>Выставляем счёт. Работаем с физлицами и юрлицами, есть безналичный расчёт.</p>
-        </div>
-        <div class="process-step">
-            <div class="step-num">03</div>
-            <h4>Производство</h4>
-            <p>Изготавливаем в срок 5–14 рабочих дней в зависимости от объёма.</p>
-        </div>
-        <div class="process-step">
-            <div class="step-num">04</div>
-            <h4>Упаковка и отправка</h4>
-            <p>Каждое изделие надёжно упаковывается. Отправляем с фото и трек-номером.</p>
-        </div>
-    </div>
-
-    <!-- WHY -->
-    <h2>Почему выбирают нас</h2>
-    <div class="why-grid">
+    <section class="section">
+      <div class="section__head">
+        <h2 class="section__title">Почему выбирают нас</h2>
+      </div>
+      <div class="why-grid">
         <div class="why-item">
-            <div class="why-icon">🏭</div>
-            <div>
-                <h4>Своё производство</h4>
-                <p>Без посредников — прямые цены и контроль качества на каждом этапе.</p>
-            </div>
-        </div>
-        <div class="why-item">
-            <div class="why-icon">📐</div>
-            <div>
-                <h4>Любые размеры</h4>
-                <p>Изготовим под ваши точные размеры — нестандартные заказы приветствуются.</p>
-            </div>
-        </div>
-        <div class="why-item">
-            <div class="why-icon">✅</div>
-            <div>
-                <h4>Качество материалов</h4>
-                <p>Используем только качественное дерево и надёжную фурнитуру.</p>
-            </div>
+          <div class="why-icon">🏭</div>
+          <div>
+            <div class="why-item__title">Своё производство</div>
+            <div class="why-item__desc">Без посредников — прямые цены и контроль качества на каждом этапе.</div>
+          </div>
         </div>
         <div class="why-item">
-            <div class="why-icon">🏪</div>
-            <div>
-                <h4>Опыт с бизнесом</h4>
-                <p>Работаем с кафе, кофейнями, магазинами и торговыми точками по всей России.</p>
-            </div>
+          <div class="why-icon">📐</div>
+          <div>
+            <div class="why-item__title">Любые размеры</div>
+            <div class="why-item__desc">Изготовим под ваши точные размеры. Нестандартные заказы приветствуются.</div>
+          </div>
         </div>
         <div class="why-item">
-            <div class="why-icon">📦</div>
-            <div>
-                <h4>Быстрая отправка</h4>
-                <p>Отправляем сразу после готовности. Присылаем фото до отправки.</p>
-            </div>
+          <div class="why-icon">✅</div>
+          <div>
+            <div class="why-item__title">Качество материалов</div>
+            <div class="why-item__desc">Только качественное дерево и надёжная фурнитура.</div>
+          </div>
         </div>
         <div class="why-item">
-            <div class="why-icon">🧾</div>
-            <div>
-                <h4>Документы для бизнеса</h4>
-                <p>Работаем по договору, выставляем счёт и закрывающие документы.</p>
-            </div>
+          <div class="why-icon">🏪</div>
+          <div>
+            <div class="why-item__title">Опыт с бизнесом</div>
+            <div class="why-item__desc">Работаем с кафе, кофейнями, магазинами по всей России.</div>
+          </div>
         </div>
-    </div>
+        <div class="why-item">
+          <div class="why-icon">📦</div>
+          <div>
+            <div class="why-item__title">Быстрая отправка</div>
+            <div class="why-item__desc">Отправляем сразу после готовности. Присылаем фото до отправки.</div>
+          </div>
+        </div>
+        <div class="why-item">
+          <div class="why-icon">🧾</div>
+          <div>
+            <div class="why-item__title">Документы для бизнеса</div>
+            <div class="why-item__desc">Работаем по договору, счёт и закрывающие документы.</div>
+          </div>
+        </div>
+      </div>
+    </section>
 
-    <!-- DELIVERY -->
-    <h2>Доставка по всей России</h2>
-    <div class="delivery-block">
+    <section class="section">
+      <div class="section__head">
+        <h2 class="section__title">Отзывы клиентов</h2>
+      </div>
+      <div class="review-grid">
+        <div class="review-card">
+          <div class="review-stars">★★★★★</div>
+          <div class="review-text">Заказывали витрину под выпечку — сделали быстро, качество отличное, всё пришло целым
+            через СДЭК. Рекомендуем!</div>
+          <div class="reviewer">
+            <div class="reviewer-avatar">АК</div>
+            <div>
+              <div class="reviewer-name">Анна К.</div>
+              <div class="reviewer-meta">Кафе, Москва</div>
+            </div>
+          </div>
+        </div>
+        <div class="review-card">
+          <div class="review-stars">★★★★★</div>
+          <div class="review-text">Заказали меловые штендеры для двух точек. Упаковка отличная. Смотрятся очень достойно
+            у входа.</div>
+          <div class="reviewer">
+            <div class="reviewer-avatar">ДМ</div>
+            <div>
+              <div class="reviewer-name">Дмитрий М.</div>
+              <div class="reviewer-meta">Кофейня, Санкт-Петербург</div>
+            </div>
+          </div>
+        </div>
+        <div class="review-card">
+          <div class="review-stars">★★★★★</div>
+          <div class="review-text">Делали нестандартный размер витрины — всё сделали как надо, по замерам. Сроки
+            выдержали, документы предоставили.</div>
+          <div class="reviewer">
+            <div class="reviewer-avatar">ИС</div>
+            <div>
+              <div class="reviewer-name">Ирина С.</div>
+              <div class="reviewer-meta">Магазин, Екатеринбург</div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section">
+      <div class="section__head">
+        <h2 class="section__title">Доставка по всей России</h2>
+      </div>
+      <div class="delivery-block">
         <div class="delivery-logos">
-            <div class="delivery-logo">СДЭК</div>
-            <div class="delivery-logo">ПЭК</div>
-            <div class="delivery-logo">Почта России</div>
+          <div class="delivery-logo">СДЭК</div>
+          <div class="delivery-logo">ПЭК</div>
+          <div class="delivery-logo">Почта России</div>
         </div>
-        <div class="delivery-text">
-            Доставляем по всей России. Стоимость рассчитывается индивидуально по тарифам перевозчика. Все изделия
-            тщательно упакованы — приходят в целости. Вы получаете трек-номер сразу после отправки.
-        </div>
+        <div class="delivery-text">Доставляем по всей России. Стоимость рассчитывается по тарифам перевозчика. Все
+          изделия тщательно упакованы. Трек-номер сразу после отправки.</div>
+      </div>
+    </section>
+
+    <div class="cta-block">
+      <h2>Хотите увидеть больше работ?</h2>
+      <p>Напишите нам — вышлем фото реальных заказов, размеры и варианты исполнения.</p>
+      <div class="hero__btns">
+        <a href="https://t.me/stegruslan" class="btn btn-gold">✈ Написать в Telegram</a>
+        <a href="https://max.ru/u/f9LHodD0cOJj3__WqY2e4vFNyRtDeu-g9kXnE26N12MBbp6iLhV77JUU4lA" class="btn btn-blue">💬
+          Написать в Max</a>
+      </div>
     </div>
+  </div>
 
-    <!-- REVIEWS -->
-    <h2>Отзывы клиентов</h2>
-    <div class="review-grid">
-
-        <div class="review-card" itemscope itemtype="https://schema.org/Review">
-            <div itemprop="itemReviewed" itemscope itemtype="https://schema.org/LocalBusiness"><meta itemprop="name" content="PosCraft"/></div>
-            <div class="review-stars" itemprop="reviewRating" itemscope itemtype="https://schema.org/Rating">
-                <meta itemprop="ratingValue" content="5"/>★★★★★
-            </div>
-            <div class="review-text" itemprop="reviewBody">Заказывали витрину под выпечку — сделали быстро, качество отличное, всё пришло
-                целым через СДЭК. Рекомендуем!
-            </div>
-            <div class="reviewer">
-                <div class="reviewer-avatar">АК</div>
-                <div>
-                    <div class="reviewer-name" itemprop="author" itemscope itemtype="https://schema.org/Person"><span itemprop="name">Анна К.</span></div>
-                    <div class="reviewer-meta">Кафе, Москва</div>
-                </div>
-            </div>
-        </div>
-
-        <div class="review-card" itemscope itemtype="https://schema.org/Review">
-            <div itemprop="itemReviewed" itemscope itemtype="https://schema.org/LocalBusiness"><meta itemprop="name" content="PosCraft"/></div>
-            <div class="review-stars" itemprop="reviewRating" itemscope itemtype="https://schema.org/Rating">
-                <meta itemprop="ratingValue" content="5"/>★★★★★
-            </div>
-            <div class="review-text" itemprop="reviewBody">Заказали меловые штендеры для двух точек. Упаковка отличная. Смотрятся очень
-                достойно у входа.
-            </div>
-            <div class="reviewer">
-                <div class="reviewer-avatar">ДМ</div>
-                <div>
-                    <div class="reviewer-name" itemprop="author" itemscope itemtype="https://schema.org/Person"><span itemprop="name">Дмитрий М.</span></div>
-                    <div class="reviewer-meta">Кофейня, Санкт-Петербург</div>
-                </div>
-            </div>
-        </div>
-
-        <div class="review-card" itemscope itemtype="https://schema.org/Review">
-            <div itemprop="itemReviewed" itemscope itemtype="https://schema.org/LocalBusiness"><meta itemprop="name" content="PosCraft"/></div>
-            <div class="review-stars" itemprop="reviewRating" itemscope itemtype="https://schema.org/Rating">
-                <meta itemprop="ratingValue" content="5"/>★★★★★
-            </div>
-            <div class="review-text" itemprop="reviewBody">Делали нестандартный размер витрины — всё сделали как надо, по замерам. Сроки
-                выдержали, документы предоставили.
-            </div>
-            <div class="reviewer">
-                <div class="reviewer-avatar">ИС</div>
-                <div>
-                    <div class="reviewer-name" itemprop="author" itemscope itemtype="https://schema.org/Person"><span itemprop="name">Ирина С.</span></div>
-                    <div class="reviewer-meta">Магазин, Екатеринбург</div>
-                </div>
-            </div>
-        </div>
-
+  <footer class="site-footer">
+    <div class="site-footer__inner">
+      <span>© 2026 PosCraft — Производство торгового оборудования, Воронеж</span>
+      <div style="display:flex;gap:16px;flex-wrap:wrap">
+        <a href="https://t.me/stegruslan">Telegram</a>
+        <a href="https://max.ru/u/f9LHodD0cOJj3__WqY2e4vFNyRtDeu-g9kXnE26N12MBbp6iLhV77JUU4lA">Max</a>
+        <a href="mailto:ruslanstegancev175@gmail.com">Email</a>
+      </div>
     </div>
-
-    <!-- ПОРТФОЛИО CTA -->
-    <div style="background: linear-gradient(135deg, #1e2030, #252838); border: 1px solid rgba(255,183,77,0.2); border-radius: 20px; padding: 40px; text-align: center; margin-top: 60px;">
-        <h2 style="border: none; padding: 0; margin: 0 0 10px; font-size: 26px;">Хотите увидеть больше работ?</h2>
-        <p style="color: #a0a4b8; font-size: 15px; margin: 0 0 24px;">Напишите нам — вышлем фото реальных заказов, размеры и варианты исполнения.</p>
-        <div style="display: flex; gap: 12px; justify-content: center; flex-wrap: wrap;">
-            <a href="https://t.me/stegruslan"
-               style="display: inline-block; padding: 14px 28px; background: #ffb74d; color: #111; border-radius: 12px; text-decoration: none; font-weight: bold; font-size: 15px;"><svg class="msg-icon" style="color:#fff;display:inline-block;vertical-align:middle;margin-right:4px"><use href="#icon-telegram"/></svg> Написать в Telegram</a>
-            <a href="https://max.ru/u/f9LHodD0cOJj3__WqY2e4vFNyRtDeu-g9kXnE26N12MBbp6iLhV77JUU4lA"
-               style="display: inline-block; padding: 14px 28px; background: #2563EB; color: #fff; border-radius: 12px; text-decoration: none; font-weight: bold; font-size: 15px;"><svg class="msg-icon" style="display:inline-block;vertical-align:middle;margin-right:4px"><use href="#icon-max"/></svg> Написать в Max</a>
-        </div>
-    </div>
-
-    <!-- КОНТАКТЫ -->
-    <h2>Контакты</h2>
-    <div class="contacts-grid">
-        <a href="https://t.me/stegruslan" class="contact-link">
-            <svg class="msg-icon" style="color:#fff;display:inline-block;vertical-align:middle;margin-right:4px"><use href="#icon-telegram"/></svg> Telegram
-        </a>
-        <a href="https://max.ru/u/f9LHodD0cOJj3__WqY2e4vFNyRtDeu-g9kXnE26N12MBbp6iLhV77JUU4lA" class="contact-link max-link">
-            <svg class="msg-icon" style="display:inline-block;vertical-align:middle;margin-right:4px"><use href="#icon-max"/></svg> Max
-        </a>
-        <a href="https://wa.me/79525514906" class="contact-link">
-            <span style="font-size: 22px;">💬</span> WhatsApp
-        </a>
-        <a href="mailto:ruslanstegancev175@gmail.com" class="contact-link">
-            <span style="font-size: 22px;">✉️</span> ruslanstegancev175@gmail.com
-        </a>
-    </div>
-
-</div>
-
-<footer>
-    © 2026 PosCraft — Производство торгового оборудования, Воронеж &nbsp;·&nbsp;
-    <a href="https://t.me/stegruslan">Telegram</a> &nbsp;·&nbsp;
-    <a href="https://max.ru/u/f9LHodD0cOJj3__WqY2e4vFNyRtDeu-g9kXnE26N12MBbp6iLhV77JUU4lA">Max</a>
-</footer>
+  </footer>
 
 </body>
+
 </html>
